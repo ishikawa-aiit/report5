@@ -1,0 +1,5 @@
+language: bash
+script: 
+  - echo "test in Travis CI"
+  - ./gcd-test.sh
+  - echo "valid complete"
